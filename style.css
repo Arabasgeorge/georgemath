@@ -4,13 +4,13 @@ body {
     padding: 0;
 
     /* Εικόνα φόντου */
-    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png'); /* Ενημέρωσε τη διαδρομή αν είναι απαραίτητο */
-    background-size: cover; /* Κάλυψε την περιοχή με την εικόνα φόντου */
+    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png');
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Αποφυγή επανάληψης της εικόνας */
+    background-repeat: no-repeat;
 }
 
-/* Header styles */
+/* Στυλ για την κεφαλίδα */
 .header {
     background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
     color: #ffffff;
@@ -18,13 +18,13 @@ body {
     text-align: center;
 }
 
-/* Style για το κείμενο "A.G." */
+/* Στυλ για το κείμενο "A.G." */
 .ag-title {
-    font-size: 38px; /* Μεγαλύτερο μέγεθος γραμματοσειράς για το "A.G." */
-    font-weight: bold; /* Το "A.G." bold */
-    color: #00ffb3; /* Χρώμα που κάνει το "A.G." να ξεχωρίζει */
-    text-align: center; /* Στοίχιση στο κέντρο για το "A.G." */
-    margin-top: 20px; /* Απόσταση πάνω από το "A.G." */
+    font-size: 38px;
+    font-weight: bold;
+    color: #00ffb3;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Στυλ για τα μαθήματα και το περιεχόμενο */
@@ -33,7 +33,7 @@ body {
 }
 
 .course {
-    background-color: rgba(255, 255, 255, 0.8); /* Μειωμένη αδιαφάνεια στα κουτιά των μαθημάτων για να φαίνεται το φόντο */
+    background-color: rgba(255, 255, 255, 0.7); /* Μειωμένη αδιαφάνεια στα κουτιά των μαθημάτων */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -59,7 +59,7 @@ body {
     margin-left: -1em;
 }
 
-/* Footer styles */
+/* Στυλ για το footer */
 .footer {
     background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για το footer */
     color: #ffffff;
