@@ -1,0 +1,81 @@
+/* Global body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    
+    /* Background image */
+    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png'); /* Update path if necessary */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header styles */
+.header {
+    background-color: #005792;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.header p {
+    margin: 10px 0 0;
+}
+
+/* Style for the "A.G." text */
+.ag-title {
+    font-size: 48px; /* Larger font size for "A.G." */
+    font-weight: bold; /* Make "A.G." bold */
+    color: #00ffb3; /* Color for "A.G." to make it stand out */
+    text-align: center; /* Center "A.G." */
+    margin-top: 20px; /* Space above "A.G." */
+}
+
+/* Course and other content styles */
+.courses {
+    padding: 20px;
+}
+
+.course {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.course h2 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.sub-topics {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sub-topics li:before {
+    content: "•";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #005792;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
