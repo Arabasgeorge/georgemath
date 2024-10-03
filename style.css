@@ -32,7 +32,7 @@ body {
 
 /* Style for the "A.G." text */
 .ag-title {
-    font-size: 28px; /* Larger font size for "A.G." */
+    font-size: 8px; /* Larger font size for "A.G." */
     font-weight: bold; /* Make "A.G." bold */
     color: #00ffb3; /* Color for "A.G." to make it stand out */
     text-align: center; /* Center "A.G." */
