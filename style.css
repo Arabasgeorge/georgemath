@@ -9,7 +9,13 @@ body {
     background-position: center;
     background-repeat: no-repeat; /* Αποφυγή επανάληψης της εικόνας */
 }
-
+/* Header styles */
+.header {
+    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
 
 
 /* Style για το κείμενο "A.G." */
@@ -54,10 +60,3 @@ body {
 }
 
 /* Footer styles */
-.footer {
-    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για το footer */
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
-}
