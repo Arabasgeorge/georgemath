@@ -3,32 +3,23 @@ body {
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-    color: #333;
-    
+
     /* Background image */
     background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png'); /* Update path if necessary */
-    background-size: contain;
+    background-size: cover; /* Change to cover to fill the area */
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat; /* Change to no-repeat to avoid tiling */
 }
 
 /* Header styles */
 .header {
-    background-color: #005792;
+    background-color: rgba(0, 87, 146, 0.8); /* Semi-transparent background */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
-.header h1, .header h2 {
-    margin: 0;
-    padding: 0;
-}
 
-.header p {
-    margin: 10px 0 0;
-}
 
 /* Style for the "A.G." text */
 .ag-title {
