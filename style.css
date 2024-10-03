@@ -90,6 +90,10 @@ body {
     height: 100%;
     position: absolute;
     transform-style: preserve-3d; /* Διατηρεί την τρισδιάστατη μορφή */
-    animation: rotate 10s infinite linear; /* Περιστροφή */
+    /* Αφαιρέσαμε την κίνηση */
+}
 
-    
+.face {
+    position: absolute;
+    width
+
