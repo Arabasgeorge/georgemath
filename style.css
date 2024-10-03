@@ -1,42 +1,39 @@
-/* Global body styles */
 body {
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 
-    /* Background image */
-    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png'); /* Update path if necessary */
-    background-size: cover; /* Change to cover to fill the area */
+    /* Εικόνα φόντου */
+    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png'); /* Ενημέρωσε τη διαδρομή αν είναι απαραίτητο */
+    background-size: cover; /* Κάλυψε την περιοχή με την εικόνα φόντου */
     background-position: center;
-    background-repeat: no-repeat; /* Change to no-repeat to avoid tiling */
+    background-repeat: no-repeat; /* Αποφυγή επανάληψης της εικόνας */
 }
 
 /* Header styles */
 .header {
-    background-color: rgba(0, 87, 146, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
-
-
-/* Style for the "A.G." text */
+/* Style για το κείμενο "A.G." */
 .ag-title {
-    font-size: 38px; /* Larger font size for "A.G." */
-    font-weight: bold; /* Make "A.G." bold */
-    color: #00ffb3; /* Color for "A.G." to make it stand out */
-    text-align: center; /* Center "A.G." */
-    margin-top: 20px; /* Space above "A.G." */
+    font-size: 38px; /* Μεγαλύτερο μέγεθος γραμματοσειράς για το "A.G." */
+    font-weight: bold; /* Το "A.G." bold */
+    color: #00ffb3; /* Χρώμα που κάνει το "A.G." να ξεχωρίζει */
+    text-align: center; /* Στοίχιση στο κέντρο για το "A.G." */
+    margin-top: 20px; /* Απόσταση πάνω από το "A.G." */
 }
 
-/* Course and other content styles */
+/* Στυλ για τα μαθήματα και το περιεχόμενο */
 .courses {
     padding: 20px;
 }
 
 .course {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8); /* Μειωμένη αδιαφάνεια στα κουτιά των μαθημάτων για να φαίνεται το φόντο */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -64,7 +61,7 @@ body {
 
 /* Footer styles */
 .footer {
-    background-color: #005792;
+    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για το footer */
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
