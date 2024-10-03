@@ -12,7 +12,7 @@ body {
 
 /* Header styles */
 .header {
-    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
+   
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -21,10 +21,9 @@ body {
 /* Νέα Κλάση για τα στοιχεία επικοινωνίας */
 .contact-info {
     background: none; /* Αφαιρεί το φόντο */
-    color: #0056b3; /* Εντονότερο μπλε χρώμα για τα στοιχεία επικοινωνίας */
+    color: #ffffff; /* Χρώμα κειμένου */
     margin-top: 10px; /* Απόσταση πάνω από την επικοινωνία */
     font-size: 16px; /* Μέγεθος γραμματοσειράς για την επικοινωνία */
-    font-weight: bold; /* Έντονη γραφή για τα στοιχεία επικοινωνίας */
 }
 
 /* Style για το κείμενο "A.G." */
@@ -76,40 +75,3 @@ body {
     padding: 20px 0;
     margin-top: 20px;
 }
-
-/* Στυλ για τον κύβο */
-.cube-container {
-    perspective: 800px; /* Προσθέτει προοπτική για το τρισδιάστατο αποτέλεσμα */
-    width: 200px;
-    height: 200px;
-    margin: 20px auto; /* Κεντράρει τον κύβο */
-    position: relative;
-}
-
-.cube {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d; /* Διατηρεί την τρισδιάστατη μορφή */
-    /* Αφαιρέσαμε την κίνηση */
-}
-
-.face {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: rgba(255, 255, 255, 0.9);
-    border: 2px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.front  { transform: rotateY(  0deg) translateZ(100px); }
-.back   { transform: rotateY(180deg) translateZ(100px); }
-.left   { transform: rotateY(-90deg) translateZ(100px); }
-.right  { transform: rotateY( 90deg) translateZ(100px); }
-.top    { transform: rotateX( 90deg) translateZ(100px); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); }
