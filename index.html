@@ -1,70 +1,79 @@
-body {
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematician</title>
+              <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="header">
+        <!-- "A.G." text as the first title -->
+        <div class="ag-title">AΡΑΜΠΑΤΖΗΣ ΓΙΩΡΓΟΣ
+        </div>
+        <h1>MΑΘΗΜΑΤΙΚΟΣ</h1>
+        <p>Τηλέφωνο:6949204686 | Email: arabasgiorgos@gmail.com</p>
+    </div>
 
-    /* Εικόνα φόντου */
-    background-image: url('HD-wallpaper-math-computer-information-mathmatic-music-note-notes-tech-technology-thumbnail.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-/* Στυλ για την κεφαλίδα */
-.header {
-    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-}
+      <div class="courses">
+        <div class="course">
+            <h2>ΜΑΘΗΜΑΤΙΚΟ</h2>
 
-/* Στυλ για το κείμενο "A.G." */
-.ag-title {
-    font-size: 38px;
-    font-weight: bold;
-    color: #00ffb3;
-    text-align: center;
-    margin-top: 20px;
-}
+            <ul class="sub-topics">
+                  <li>Κλασική Διαφορική Γεωμετρία Ι (12 - 14 ώρες)</li>
+                <li>Κλασική Διαφορική Γεωμετρία ΙΙ (8 - 10 ώρες)</li>
+                <li>Εισαγωγή στη Γεωμετρία (10 - 13 ώρες) </li>
+                <li>Στοιχεία Αναλυτικής Γεμωτρίας (10 - 13 ώρες)</li>
+                <li>Τοπολογία (10 - 12 ώρες)</li>
+                <li>Εισαγωγή στην Πραγματική Ανάλυση  (12 - 14 ώρες)</li>
+                <li>Διαφορικές Εξισώσεις Με Μερικές Παραγώγους  (10 - 14 ώρες)</li>
+                <li>Αλγεβρικές Δομές Ι & ΙΙ (9 - 11 ώρες)</li>
 
-/* Στυλ για τα μαθήματα και το περιεχόμενο */
-.courses {
-    padding: 20px;
-}
+            </ul>
+        </div>
+        <div class="course">
+            <h2>ΟΡΓΑΝΩΣΗ ΚΑΙ ΔΙΟΙΚΗΣΗ ΕΠΙΧΕΙΡΗΣΕΩΝ  (8 - 10 ώρες)</h2>
+            <ul class="sub-topics">
+                <li>Μαθηματικά για Διοίκηση (8 - 10 ώρες)</li>
+            </ul>
+        </div>
+        <div class="course">
+            <h2>ΟΙΚΟΝΟΜΙΚΟ</h2>
+            <ul class="sub-topics">
+                <li>Στατιστική (6-8 ώρες)</li>
+                <li>Μαθηματικά (8 - 10 ώρες)</li>
+            </ul>
+        </div>
+        <div class="course">
+            <h2>ΕΦΑΡΜΟΣΜΕΝΗ ΠΛΗΡΟΦΟΡΙΚΗ</h2>
+            <ul class="sub-topics">
+                <li>Πιθανότητες (10 - 12 ώρες)</li>
+                <li>Γραμμική Άλγεβρα(10 - 12 ώρες) </li>
+                <li>Διακριτά Μαθηματικά(10 - 14 ώρες)</li>
+            </ul>
+        </div>
+    <div class="course">
+            <h2>ΠΟΛΥΤΕΧΝΕΙΟ</h2>
+            <ul class="sub-topics">
+                <li>Μαθηματική Ανάλυση(10 - 12 ώρες)</li>
+                <li>Γραμμική Άλγεβρα(12 - 14 ώρες)</li>
+            </ul>
+    </div>
+    <div class="course">
+            <h2>ΠΛΗΡΟΦΟΡΙΚΗ</h2>
+            <ul class="sub-topics">
+                <li>Μαθηματική Ανάλυση (8 - 12 ώρες)</li>
+                <li>Στατιστική, Πιθανότητες (10 - 12 ώρες)</li>
+                <li>Γραμμική Άλγεβρα (10 - 14 ώρες)</li>
+            </ul>
+    </div>
 
-.course {
-    background-color: rgba(255, 255, 255, 0.7); /* Μειωμένη αδιαφάνεια στα κουτιά των μαθημάτων */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.course h2 {
-    color: #007bff;
-    margin-top: 0;
-}
-
-.sub-topics {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sub-topics li:before {
-    content: "•";
-    color: #007bff;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-/* Στυλ για το footer */
-.footer {
-    background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για το footer */
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
-}
-
+    </div>
+    
+    <div class="footer">
+        <p>Επικοινωνήστε μαζί μου για ερωτήσεις!</p>
+    </div>
+</body>
+</html>
