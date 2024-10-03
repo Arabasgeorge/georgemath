@@ -76,24 +76,6 @@ body {
     margin-top: 20px;
 }
 
-/* Στυλ για τον κύβο */
-.cube-container {
-    perspective: 800px; /* Προσθέτει προοπτική για το τρισδιάστατο αποτέλεσμα */
-    width: 200px;
-    height: 200px;
-    margin: 20px auto; /* Κεντράρει τον κύβο */
-    position: relative;
-}
 
-.cube {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d; /* Διατηρεί την τρισδιάστατη μορφή */
-    /* Αφαιρέσαμε την κίνηση */
-}
 
-.face {
-    position: absolute;
-    width
 
