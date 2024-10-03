@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat; /* Αποφυγή επανάληψης της εικόνας */
 }
+
 /* Header styles */
 .header {
     background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για να φαίνεται περισσότερο το φόντο */
@@ -17,6 +18,13 @@ body {
     text-align: center;
 }
 
+/* Νέα Κλάση για τα στοιχεία επικοινωνίας */
+.contact-info {
+    background: none; /* Αφαιρεί το φόντο */
+    color: #ffffff; /* Χρώμα κειμένου */
+    margin-top: 10px; /* Απόσταση πάνω από την επικοινωνία */
+    font-size: 16px; /* Μέγεθος γραμματοσειράς για την επικοινωνία */
+}
 
 /* Style για το κείμενο "A.G." */
 .ag-title {
@@ -58,6 +66,8 @@ body {
     width: 1em;
     margin-left: -1em;
 }
+
+/* Footer styles */
 .footer {
     background-color: rgba(0, 87, 146, 0.6); /* Μειωμένη αδιαφάνεια για το footer */
     color: #ffffff;
@@ -65,5 +75,3 @@ body {
     padding: 20px 0;
     margin-top: 20px;
 }
-
-/* Footer styles */
